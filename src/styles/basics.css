@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.basics{
+    height: 100vh;
+    padding-left: 300px;
+}
+
+img {
+    visibility: hidden;
+}
+
+.section_heroes {
+    background-image: url("../assets/bg_basics_heroes.png");
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section_items {
+    background-image: url("../assets/bg_basics_items.png");
+    display: flex;
+}
+
+.section_lines {
+    background-image: url("../assets/bg_basics_lines.png");
+    display: flex;
+    justify-content: flex-end;
+}
+
+.basics_text{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    color: #eeee;
+    gap: 30px;
+    position: absolute;
+}
+
+.basics_text.heroes{
+    margin-top: 150px;
+    margin-right: 140px;
+}
+
+.basics_text.items{
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+.basics_text.lines{
+    margin-top: 70px;
+    margin-right: 140px;
+}
