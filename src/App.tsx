@@ -1,10 +1,10 @@
 import React from 'react';
-import Basics from "./components/glossary/basics";
+import Glossary from "./pages/glossary";
 
 function App() {
   return (
       <div>
-        <Basics/>
+        <Glossary/>
       </div>
 
   );

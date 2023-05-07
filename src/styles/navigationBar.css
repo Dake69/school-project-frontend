@@ -1,0 +1,43 @@
+.nav_container{
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #191E28;
+}
+
+.nav_categories{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+}
+.subButton_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    gap: 4px;
+}
+
+.nav_button{
+    border-width: 0;
+    border-style: none;
+    background-color: transparent;
+    color: #898989;
+}
+
+.nav_button.section{
+    font-weight: 700;
+    font-size: 24px;
+}
+.nav_button.subSection{
+    text-align: start;
+    font-weight: 600;
+    font-size: 14px;
+}
+/*пофиксить прикол с фокус*/
+.nav_button.section:focus, .nav_button.subSection:focus{
+    color: white;
+}
+
+
