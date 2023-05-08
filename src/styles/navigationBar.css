@@ -5,16 +5,17 @@
     flex-direction: column;
     background-color: #191E28;
     position: fixed;
+<<<<<<< HEAD
+=======
+    gap: 20px;
+>>>>>>> 8138b31c727640d70f1ff5b518f2b7423a4b78e7
 }
-
 .nav_categories{
     display: flex;
     flex-direction: column;
-    gap: 30px;
     padding-left: 30px;
 }
 .subButton_container{
-    display: flex;
     flex-direction: column;
     margin-top: 4px;
     gap: 4px;
@@ -30,14 +31,16 @@
 .nav_button.section{
     font-weight: 700;
     font-size: 24px;
+    text-align: start;
+    text-decoration: none;
 }
 .nav_button.subSection{
     text-align: start;
     font-weight: 600;
     font-size: 14px;
+    text-decoration: none;
 }
-/*пофиксить прикол с фокус*/
-.nav_button.section:focus, .nav_button.subSection:focus{
+.active{
     color: white;
 }
 

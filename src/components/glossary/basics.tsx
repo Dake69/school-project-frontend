@@ -27,7 +27,7 @@ const Basics = () => {
                     </p>
 
                 </div>
-                <img src={bg_basics_heroes} alt="Image" />
+                <img src={bg_basics_heroes} alt="" />
             </div>
             <div className="section_items">
                 <div className='basics_text items'>
@@ -51,7 +51,7 @@ const Basics = () => {
                     </p>
 
                 </div>
-                <img src={bg_basics_items} alt="Image" />
+                <img src={bg_basics_items} alt="" />
             </div>
             <div className="section_lines">
                 <div className='basics_text lines'>
@@ -73,7 +73,7 @@ const Basics = () => {
                     </p>
 
                 </div>
-                <img src={bg_basics_lines} alt="Image" />
+                <img src={bg_basics_lines} alt="" />
             </div>
         </section>
     );

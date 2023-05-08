@@ -4,220 +4,265 @@ export const navBar = [
     {
         id: 1,
         label: 'Основи',
-        link: '/basics'
+        link: 'basics',
     },
     {
         id: 1.1,
         label: 'Герої',
-        link: '/basics/heroes'
+        link: 'Heroes',
+        display: 'none',
+
     },
     {
         id: 1.2,
         label: 'Предмети',
-        link: '/basics/items'
+        link: 'Items',
+        display: 'none',
     },
     {
         id: 1.3,
-        label: 'Основи',
-        link: '/basics/lanesCreepsTowers'
+        label: 'Лінії,кріпи та вежі',
+        link: 'LanesCreepsTowers',
+        display: 'none',
     },
     {
         id: 2,
         label: 'Механіка',
-        link: '/mechanics'
+        link: 'mechanics',
     },
     {
         id: 2.1,
-        label: 'Механіка',
-        link: '/mechanics/unitLVL'
+        label: 'Рівень істоти',
+        link: '/mechanicsUnitLVL',
+        display: 'none',
     },
     {
         id: 2.2,
-        label: 'Механіка',
-        link: '/mechanics/goldBounties'
+        label: 'Золото й винагороди',
+        link: '/mechanicsGoldBounties',
+        display: 'none',
     },
     {
         id: 2.3,
-        label: 'Механіка',
-        link: '/mechanics/experience'
+        label: 'Досвід',
+        link: '/mechanics/experience',
+        display: 'none',
+
     },
     {
         id: 2.4,
-        label: 'Механіка',
-        link: '/mechanics/lastHitsAndDenying'
+        label: 'Останні удари й добивання',
+        link: '/mechanics/lastHitsAndDenying',
+        display: 'none',
+
     },
     {
         id: 2.5,
-        label: 'Механіка',
-        link: '/mechanics/damage'
+        label: 'Шкода',
+        link: '/mechanics/damage',
+        display: 'none',
+
     },
     {
         id: 2.6,
-        label: 'Механіка',
-        link: '/mechanics/death'
+        label: 'Смерть',
+        link: '/mechanics/death',
+        display: 'none',
+
     },
     {
         id: 2.7,
-        label: 'Механіка',
-        link: '/mechanics/unitStats'
+        label: 'Характеритики істот',
+        link: '/mechanics/unitStats',
+        display: 'none',
+
     },
     {
         id: 2.8,
-        label: 'Механіка',
-        link: '/mechanics/abilities'
+        label: 'Здібності',
+        link: '/mechanics/abilities',
+        display: 'none',
+
     },
     {
         id: 2.9,
-        label: 'Механіка',
-        link: '/mechanics/statusEffects'
+        label: 'Ефекти статусу',
+        link: '/mechanics/statusEffects',
+        display: 'none',
+
     },
     {
         id: 3,
-        label: 'Механіка',
-        link: '/units'
+        label: 'Істоти',
+        link: '/units',
     },
     {
         id: 3.1,
-        label: 'Механіка',
-        link: '/units/structures'
+        label: 'Споруди',
+        link: '/units/structures',
+        display: 'none',
     },
     {
         id: 3.2,
-        label: 'Механіка',
-        link: '/units/lineCreeps'
+        label: 'Лінійни кріпи',
+        link: '/units/lineCreeps',
+        display: 'none',
     },
     {
         id: 3.3,
-        label: 'Механіка',
-        link: '/units/smallNeutralCamps'
+        label: 'маленький табір нейтралів',
+        link: '/units/smallNeutralCamps',
+        display: 'none',
     },
     {
         id: 3.4,
-        label: 'Механіка',
-        link: '/units/bigNeutralCamps'
+        label: 'Великий табір нейтралів',
+        link: '/units/bigNeutralCamps',
+        display: 'none',
     },
     {
         id: 3.5,
-        label: 'Механіка',
-        link: '/units/ancientNeutralCamps'
+        label: 'Табори древніх нейтралів',
+        link: '/units/ancientNeutralCamps',
+        display: 'none',
     },
     {
         id: 4,
-        label: 'Механіка',
-        link: '/items'
+        label: 'Предмети',
+        link: '/items',
     },
     {
         id: 4.1,
-        label: 'Механіка',
-        link: '/items/shopItems'
+        label: 'Купити предмети',
+        link: '/items/shopItems',
+        display: 'none',
     },
     {
         id: 4.2,
-        label: 'Механіка',
-        link: '/items/neutralItems'
+        label: 'Нейтральні предмети',
+        link: '/items/neutralItems',
+        display: 'none',
     },
     {
         id: 4.3,
-        label: 'Механіка',
-        link: '/items/inventory'
+        label: 'Інвентар',
+        link: '/items/inventory',
+        display: 'none',
     },
     {
         id: 4.4,
-        label: 'Механіка',
-        link: '/items/recipesAssembly'
+        label: 'Рецепти та збирання',
+        link: '/items/recipesAssembly',
+        display: 'none',
     },
     {
         id: 4.5,
-        label: 'Механіка',
-        link: '/items/courier'
+        label: 'Кур\'єр',
+        link: '/items/courier',
+        display: 'none',
     },
     {
         id: 5,
-        label: 'Механіка',
+        label: 'Поле бою',
         link: '/theBattlefield'
     },
     {
         id: 5.1,
-        label: 'Механіка',
-        link: '/theBattlefield/minimap'
+        label: 'Міні-мапа',
+        link: '/theBattlefield/minimap',
+        display: 'none',
     },
     {
         id: 5.2,
-        label: 'Механіка',
-        link: '/theBattlefield/lanes'
+        label: 'Лінії',
+        link: '/theBattlefield/lanes',
+        display: 'none',
     },
     {
         id: 5.3,
-        label: 'Механіка',
-        link: '/theBattlefield/shops'
+        label: 'Крамниці',
+        link: '/theBattlefield/shops',
+        display: 'none',
     },
     {
         id: 5.4,
-        label: 'Механіка',
-        link: '/theBattlefield/structures'
+        label: 'Споруди',
+        link: '/theBattlefield/structures',
+        display: 'none',
     },
     {
         id: 5.5,
-        label: 'Механіка',
-        link: '/theBattlefield/vision'
+        label: 'Видимість',
+        link: '/theBattlefield/vision',
+        display: 'none',
     },
     {
         id: 5.6,
-        label: 'Механіка',
-        link: '/theBattlefield/runes'
+        label: 'Руни',
+        link: '/theBattlefield/runes',
+        display: 'none',
     },
     {
         id: 5.7,
-        label: 'Механіка',
-        link: '/theBattlefield/roshan'
+        label: 'Рошан',
+        link: '/theBattlefield/roshan',
+        display: 'none',
     },
     {
         id: 5.8,
-        label: 'Механіка',
-        link: '/theBattlefield/tormentor'
+        label: 'Мучитель',
+        link: '/theBattlefield/tormentor',
+        display: 'none',
     },
     {
         id: 6,
-        label: 'Механіка',
+        label: 'Командна робота',
         link: '/teamWork'
     },
     {
         id: 6.1,
-        label: 'Механіка',
-        link: '/teamWork/communication'
+        label: 'Спілкування',
+        link: '/teamWork/communication',
+        display: 'none',
     },
     {
         id: 6.2,
-        label: 'Механіка',
-        link: '/teamWork/terminology'
+        label: 'Термінологія',
+        link: '/teamWork/terminology',
+        display: 'none',
     },
     {
         id: 6.3,
-        label: 'Механіка',
-        link: '/teamWork/laneEquilibrium'
+        label: 'Рівновага лінії',
+        link: '/teamWork/laneEquilibrium',
+        display: 'none',
     },
     {
         id: 6.4,
-        label: 'Механіка',
-        link: '/teamWork/teamFights'
+        label: 'Командні бої',
+        link: '/teamWork/teamFights',
+        display: 'none',
     },
     {
         id: 6.5,
-        label: 'Механіка',
-        link: '/teamWork/objectives'
+        label: 'Завдання',
+        link: '/teamWork/objectives',
+        display: 'none',
     },
     {
         id: 6.6,
-        label: 'Механіка',
-        link: '/teamWork/heroItemChoice'
+        label: 'Вибір героїв і предметів',
+        link: '/teamWork/heroItemChoice',
+        display: 'none',
     },
     {
         id: 7,
-        label: 'Механіка',
+        label: 'Складніші терміни',
         link: '/advanced'
     },
     {
         id: 7.1,
+<<<<<<< HEAD
         label: 'Механіка',
         link: '/advanced/commonBufs'
     },
@@ -235,5 +280,28 @@ export const navBar = [
         id: 7.4,
         label: 'Механіка',
         link: '/advanced/unitAggression'
+=======
+        label: 'Поширені позитивні ефекти',
+        link: '/advanced/commonPositiveEffects',
+        display: 'none',
+    },
+    {
+        id: 7.2,
+        label: 'Націлювання здібностей',
+        link: '/advanced/abilityTargeting',
+        display: 'none',
+    },
+    {
+        id: 7.3,
+        label: 'Накази істотам',
+        link: '/advanced/unitOrders',
+        display: 'none',
+    },
+    {
+        id: 7.4,
+        label: 'Агресія істот',
+        link: '/advanced/unitAggression',
+        display: 'none',
+>>>>>>> 8138b31c727640d70f1ff5b518f2b7423a4b78e7
     },
 ];
