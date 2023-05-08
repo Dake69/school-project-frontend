@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../../styles/navigationBar.css'
 import {navBar} from "../../constants/navigationBtns";
 import {NavLink} from "react-router-dom";
@@ -8,6 +8,7 @@ import {NavLink} from "react-router-dom";
 
 const NavBar = () => {
 
+    const [isActive, setIsActive] = useState(false)
     const handleClick = (e:any) => {
         const id = e.currentTarget.id
         const nextID = Number(id) + 1
@@ -17,6 +18,7 @@ const NavBar = () => {
         navBar.filter(item =>  item.id > id && item.id < nextID).map((item) => {
             item.display = 'flex'
         })
+        setIsActive(current => !current)
     }
 
     const navButtons = navBar.map((item) => {
@@ -31,7 +33,8 @@ const NavBar = () => {
             )}
         else {
             return (
-                    <NavLink className='nav_button subSection' to={item.link} id={item.id.toString()}
+                    <NavLink className='nav_button subSection'
+                             to={item.link} id={item.id.toString()}
                             style={{display: item.display}}>
                         {item.label}
                     </NavLink>

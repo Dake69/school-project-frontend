@@ -5,10 +5,7 @@
     flex-direction: column;
     background-color: #191E28;
     position: fixed;
-<<<<<<< HEAD
-=======
     gap: 20px;
->>>>>>> 8138b31c727640d70f1ff5b518f2b7423a4b78e7
 }
 .nav_categories{
     display: flex;

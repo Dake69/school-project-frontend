@@ -1,6 +1,10 @@
 import React from "react";
 import '../../styles/mechanics.css'
 
+// надо импортонуть функцию скролл, вытащить параметр из ссылки в переменную и
+//  на секции навесить айди такоеже как параметр ссылки
+// пример в базикс.тсх
+
 const Mechanics = () => {
     return (
         <section className='mechanics'>

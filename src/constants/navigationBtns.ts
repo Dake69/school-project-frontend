@@ -9,20 +9,20 @@ export const navBar = [
     {
         id: 1.1,
         label: 'Герої',
-        link: 'Heroes',
+        link: 'basics/Heroes',
         display: 'none',
 
     },
     {
         id: 1.2,
         label: 'Предмети',
-        link: 'Items',
+        link: 'basics/Items',
         display: 'none',
     },
     {
         id: 1.3,
         label: 'Лінії,кріпи та вежі',
-        link: 'LanesCreepsTowers',
+        link: 'basics/LanesCreepsTowers',
         display: 'none',
     },
     {
@@ -33,61 +33,61 @@ export const navBar = [
     {
         id: 2.1,
         label: 'Рівень істоти',
-        link: '/mechanicsUnitLVL',
+        link: 'mechanic/sUnitLVL',
         display: 'none',
     },
     {
         id: 2.2,
         label: 'Золото й винагороди',
-        link: '/mechanicsGoldBounties',
+        link: 'mechanics/GoldBounties',
         display: 'none',
     },
     {
         id: 2.3,
         label: 'Досвід',
-        link: '/mechanics/experience',
+        link: 'mechanics/experience',
         display: 'none',
 
     },
     {
         id: 2.4,
         label: 'Останні удари й добивання',
-        link: '/mechanics/lastHitsAndDenying',
+        link: 'mechanics/lastHitsAndDenying',
         display: 'none',
 
     },
     {
         id: 2.5,
         label: 'Шкода',
-        link: '/mechanics/damage',
+        link: 'mechanics/damage',
         display: 'none',
 
     },
     {
         id: 2.6,
         label: 'Смерть',
-        link: '/mechanics/death',
+        link: 'mechanics/death',
         display: 'none',
 
     },
     {
         id: 2.7,
         label: 'Характеритики істот',
-        link: '/mechanics/unitStats',
+        link: 'mechanics/unitStats',
         display: 'none',
 
     },
     {
         id: 2.8,
         label: 'Здібності',
-        link: '/mechanics/abilities',
+        link: 'mechanics/abilities',
         display: 'none',
 
     },
     {
         id: 2.9,
         label: 'Ефекти статусу',
-        link: '/mechanics/statusEffects',
+        link: 'mechanics/statusEffects',
         display: 'none',
 
     },
@@ -262,25 +262,6 @@ export const navBar = [
     },
     {
         id: 7.1,
-<<<<<<< HEAD
-        label: 'Механіка',
-        link: '/advanced/commonBufs'
-    },
-    {
-        id: 7.2,
-        label: 'Механіка',
-        link: '/advanced/abilityTargeting'
-    },
-    {
-        id: 7.3,
-        label: 'Механіка',
-        link: '/advanced/unitOrders'
-    },
-    {
-        id: 7.4,
-        label: 'Механіка',
-        link: '/advanced/unitAggression'
-=======
         label: 'Поширені позитивні ефекти',
         link: '/advanced/commonPositiveEffects',
         display: 'none',
@@ -302,6 +283,5 @@ export const navBar = [
         label: 'Агресія істот',
         link: '/advanced/unitAggression',
         display: 'none',
->>>>>>> 8138b31c727640d70f1ff5b518f2b7423a4b78e7
     },
 ];

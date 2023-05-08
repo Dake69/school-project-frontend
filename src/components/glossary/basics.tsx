@@ -1,13 +1,21 @@
 import React from "react";
-    import '../../styles/basics.css'
+import '../../styles/basics.css'
 import bg_basics_heroes from '../../assets/bg_basics_heroes.png'
 import bg_basics_items from '../../assets/bg_basics_items.png'
 import bg_basics_lines from '../../assets/bg_basics_lines.png'
+import {useParams} from "react-router-dom";
+import scroll from '../../functions/scroll'
 
 const Basics = () => {
+
+    const {'*': value} = useParams();
+    console.log(value)
+
+    scroll(value)
     return (
         <section className='basics'>
-            <div className="section_heroes">
+            <div className="section_heroes" id="Heroes">
+
                 <div className='basics_text heroes'>
                     <div>
                         <label>ОСНОВИ</label>
@@ -29,7 +37,7 @@ const Basics = () => {
                 </div>
                 <img src={bg_basics_heroes} alt="" />
             </div>
-            <div className="section_items">
+            <div className="section_items" id="Items">
                 <div className='basics_text items'>
                     <div>
                         <label>ОСНОВЫ</label>
@@ -52,8 +60,8 @@ const Basics = () => {
 
                 </div>
                 <img src={bg_basics_items} alt="" />
-            </div>
-            <div className="section_lines">
+            </div >
+            <div className="section_lines" id="LanesCreepsTowers">
                 <div className='basics_text lines'>
                     <div>
                         <label>ОСНОВЫ</label>
