@@ -1,34 +1,49 @@
+import React from 'react';
 import '../../styles/navigationBar.css'
+import {navBar} from "../../constants/navigationBtns";
+import {NavLink} from "react-router-dom";
+
+
 
 
 const NavBar = () => {
+
+    const handleClick = (e:any) => {
+        const id = e.currentTarget.id
+        const nextID = Number(id) + 1
+        navBar.map((item) => {
+            item.display = 'none'
+        })
+        navBar.filter(item =>  item.id > id && item.id < nextID).map((item) => {
+            item.display = 'flex'
+        })
+    }
+
+    const navButtons = navBar.map((item) => {
+
+        if(Number.isInteger(item.id)){
+            return (
+                <NavLink className='nav_button section'
+                     to={item.link}
+                     id={item.id.toString()}
+                     onClick={handleClick}>{item.label}
+                </NavLink>
+            )}
+        else {
+            return (
+                    <NavLink className='nav_button subSection' to={item.link} id={item.id.toString()}
+                            style={{display: item.display}}>
+                        {item.label}
+                    </NavLink>
+            )}
+            // style={{display: isActive ? 'flex' : 'none'}}
+    })
     return (
         <section className='nav_container'>
             <div className='nav_categories'>
-                {/*Basics*/}
-                <div>
-                    <button className='nav_button section'>Основи</button>
-                    <div className='subButton_container'>
-                        <button className='nav_button subSection'>Герої</button>
-                        <button className='nav_button subSection'>Предмети</button>
-                        <button className='nav_button subSection'>Линии, крипы, башни</button>
-                    </div>
-                </div>
-                {/*Mechanics*/}
-                <div>
-                    <button className='nav_button section'>Механики</button>
-                    <div className='subButton_container'>
-                        <button className='nav_button subSection'>Уровень существ</button>
-                        <button className='nav_button subSection'>Золото и награды за убийство</button>
-                        <button className='nav_button subSection'>Опыт</button>
-                        <button className='nav_button subSection'>Добивание существ</button>
-                        <button className='nav_button subSection'>Урон</button>
-                        <button className='nav_button subSection'>Смерть</button>
-                        <button className='nav_button subSection'>Характеристики существа</button>
-                        <button className='nav_button subSection'>Способности</button>
-                        <button className='nav_button subSection'>Эффекты состояния</button>
-                    </div>
-                </div>
+                <>
+                    {navButtons}
+                </>
             </div>
 
         </section>

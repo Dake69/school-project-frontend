@@ -1,12 +1,15 @@
 import React from 'react';
 import Glossary from "./pages/glossary";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+
 
 function App() {
   return (
-      <div>
-        <Glossary/>
-      </div>
-
+      <BrowserRouter>
+          <Routes>
+              <Route path="glossary/*" element={<Glossary />} />
+          </Routes>
+      </BrowserRouter>
   );
 }
 
