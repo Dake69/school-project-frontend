@@ -1,12 +1,14 @@
 import React from "react";
 import NavBar from "../components/glossary/navigationBar";
-import Basics from "../components/glossary/basics";
+import Mechanics from "../components/glossary/mechanics"
+// import Basics from "../components/glossary/basics";
 
 function Glossary() {
     return (
         <div style={ {display: 'flex'}}>
+            {/*<Basics/>*/}
             <NavBar/>
-            <Basics/>
+            <Mechanics/>
         </div>
     );
 }

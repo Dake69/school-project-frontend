@@ -217,22 +217,22 @@ export const navBar = [
         link: '/advanced'
     },
     {
-        id: 7,
+        id: 7.1,
         label: 'Механіка',
         link: '/advanced/commonBufs'
     },
     {
-        id: 7,
+        id: 7.2,
         label: 'Механіка',
         link: '/advanced/abilityTargeting'
     },
     {
-        id: 7,
+        id: 7.3,
         label: 'Механіка',
         link: '/advanced/unitOrders'
     },
     {
-        id: 7,
+        id: 7.4,
         label: 'Механіка',
         link: '/advanced/unitAggression'
     },

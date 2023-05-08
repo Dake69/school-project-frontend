@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, label, p{
+    color: white;
+    margin: 5px;
+}
+
+.section-LVL{
+    width: 100%;
+    background-color: #080d11;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mechanics{
+    width: calc(100vw - 300px);
+    margin-left: 300px;
+}
+
+.basics_text-LVL{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.section-GoldBountie{
+    background-color: #05080a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.basics_text-GoldBountie{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.section-experience{
+    background-color: #080d11;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.basics_text-experience{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.section-lastHitsAndDenying{
+    background-color: #05080a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.basics_text-lastHitsAndDenying{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.section-damage{
+    background-color: #080d11;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.table-damage{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.damage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    border-bottom: 1px solid;
+    border-color: white;
+}
+
+.table-damage-p{
+    width: 500px;
+}
+
+.section-death{
+    background-color: #05080a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.basics_text-death{
+    width: 700px;
+    margin: 0 auto;
+}
