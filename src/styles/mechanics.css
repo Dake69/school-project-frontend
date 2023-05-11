@@ -9,6 +9,10 @@ h1, h2, h3, label, p{
     margin: 5px;
 }
 
+h4 {
+    color: #c0faff;
+}
+
 .section-LVL{
     width: 100%;
     background-color: #080d11;
@@ -90,6 +94,99 @@ h1, h2, h3, label, p{
 }
 
 .basics_text-death{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.section-atribut{
+    background-color: #080d11;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.basics_text-atribut{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.mana-health h3{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mana-health {
+    margin-bottom: 30px;
+}
+
+.atribut{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.table{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid;
+    border-color: white;
+}
+
+.table p {
+    max-width: 300px;
+}
+
+.table-atribut h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table-atribut{
+    margin-bottom: 30px;
+}
+
+.table-mobile h3{
+    text-align: center;
+}
+
+.table-mobile{
+    margin-bottom: 30px;
+}
+
+.table-attacks h3{
+    text-align: center;
+}
+
+.table-attacks{
+    margin-bottom: 30px;
+}
+
+.table-protection h3{
+    text-align: center;
+}
+
+.section-spells{
+    background-color: #05080a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.basics-table-spells{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.table{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.section-status_effects{
+    background-color: #080d11;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.basics-table-status_effects{
     width: 700px;
     margin: 0 auto;
 }

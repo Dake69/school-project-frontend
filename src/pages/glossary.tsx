@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/glossary/navigationBar";
 import Basics from "../components/glossary/basics";
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes} from 'react-router-dom';
 import Mechanics from "../components/glossary/mechanics";
 
 function Glossary() {
