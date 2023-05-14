@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("../assets/heroes_full.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1, p, a{
+    color: white;
+}
+
+.main-content{
+    margin: 0 auto;
+    padding-top: 700px;
+    padding-bottom: 147px;
+    text-align: center;
+    width: 500px;
+}
