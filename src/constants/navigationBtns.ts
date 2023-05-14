@@ -33,7 +33,7 @@ export const navBar = [
     {
         id: 2.1,
         label: 'Рівень істоти',
-        link: 'mechanic/sUnitLVL',
+        link: 'mechanics/sUnitLVL',
         display: 'none',
     },
     {
@@ -94,42 +94,42 @@ export const navBar = [
     {
         id: 3,
         label: 'Істоти',
-        link: '/units',
+        link: 'units',
     },
     {
         id: 3.1,
         label: 'Споруди',
-        link: '/units/structures',
+        link: 'units/structures',
         display: 'none',
     },
     {
         id: 3.2,
         label: 'Лінійни кріпи',
-        link: '/units/lineCreeps',
+        link: 'units/lineCreeps',
         display: 'none',
     },
     {
         id: 3.3,
         label: 'маленький табір нейтралів',
-        link: '/units/smallNeutralCamps',
+        link: 'units/smallNeutralCamps',
         display: 'none',
     },
     {
         id: 3.4,
         label: 'Великий табір нейтралів',
-        link: '/units/bigNeutralCamps',
+        link: 'units/bigNeutralCamps',
         display: 'none',
     },
     {
         id: 3.5,
         label: 'Табори древніх нейтралів',
-        link: '/units/ancientNeutralCamps',
+        link: 'units/ancientNeutralCamps',
         display: 'none',
     },
     {
         id: 4,
         label: 'Предмети',
-        link: '/items',
+        link: 'items',
     },
     {
         id: 4.1,

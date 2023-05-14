@@ -15,7 +15,7 @@ const Mechanics = () => {
     scroll(value)
     return (
         <section className='mechanics'>
-            <div className='section-LVL'>
+            <div className='section-LVL' id="sUnitLVL">
                 <div className='basics_text-LVL'>
                     <div>
                         <label>МЕХАНІКА</label>
@@ -39,7 +39,7 @@ const Mechanics = () => {
                     </div>
                 </div>
             </div>
-            <div className='section-GoldBountie'>
+            <div className='section-GoldBountie' id="GoldBounties">
                 <div className='basics_text-GoldBountie'>
                     <div>
                         <label>МЕХАНІКА</label>
@@ -64,8 +64,8 @@ const Mechanics = () => {
                     </div>
                 </div>
             </div>
-            <div className='section-experience'>
-                <div className='basics_text-experience'>
+            <div className='section-experience' id="experience">
+                <div className='basics_text-experience' >
                     <div>
                         <label>МЕХАНІКА</label>
                         <h2>Досвід</h2>
@@ -85,7 +85,7 @@ const Mechanics = () => {
                     </div>
                 </div>
             </div>
-            <div className='section-lastHitsAndDenying'>
+            <div className='section-lastHitsAndDenying' id="lastHitsAndDenying">
                 <div className='basics_text-lastHitsAndDenying'>
                     <div>
                         <label>МЕХАНІКА</label>
@@ -117,7 +117,7 @@ const Mechanics = () => {
                     </div>
                 </div>
             </div>
-            <div className='section-damage'>
+            <div className='section-damage' id="damage">
                 <div className='table-damage'>
                     <div>
                         <label>МЕХАНІКА</label>
@@ -178,7 +178,7 @@ const Mechanics = () => {
                 </div>
             </div>
             <div>
-                <div className='section-death'>
+                <div className='section-death' id="death">
                     <div className='basics_text-death'>
                         <div className='basics_text-death'>
                             <label>МЕХАНІКА</label>
@@ -192,7 +192,7 @@ const Mechanics = () => {
                     </div>
                 </div>
             </div>
-            <div className='section-atribut'>
+            <div className='section-atribut'  id="unitStats">
                 <div className='basics_text-atribut'>
                     <div className='title-atribut'>
                         <label>МЕХАНІКА</label>
@@ -285,7 +285,7 @@ const Mechanics = () => {
                     </div>
                 </div>
             </div>
-            <div className='section-spells'>
+            <div className='section-spells' id="abilities">
                 <div className='basics-table-spells'>
                     <div>
                         <div className='title-spells'>
@@ -315,7 +315,7 @@ const Mechanics = () => {
                     </div>
                 </div>
             </div>
-            <div className='section-status_effects'>
+            <div className='section-status_effects' id="statusEffects">
                 <div className='basics-table-status_effects'>
                     <div>
                         <div className='title-spells'>

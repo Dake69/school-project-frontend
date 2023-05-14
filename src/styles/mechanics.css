@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, label, p{
+h2, h3, label, p{
     color: white;
     margin: 5px;
 }
 
-h4 {
+.table h4{
     color: #c0faff;
 }
 
